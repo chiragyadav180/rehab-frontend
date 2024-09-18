@@ -1,0 +1,94 @@
+.custom-exercise-list {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .custom-exercise-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .custom-exercise-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .custom-exercise-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .custom-exercise-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .custom-exercise-image {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .custom-exercise-content {
+    margin-top: 10px;
+  }
+  
+  .custom-exercise-name {
+    font-size: 18px;
+    color: #0077b6;
+    font-weight: bold;
+  }
+  
+  .custom-exercise-description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .custom-exercise-button {
+    background-color: #0077b6;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .custom-exercise-button.start {
+    background-color: #00bfa5;
+  }
+  
+  .custom-exercise-button.completed {
+    background-color: #4caf50;
+    cursor: not-allowed;
+  }
+  
+  .custom-timer {
+    margin-top: 10px;
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  .custom-cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-no-exercises {
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+  }
+  

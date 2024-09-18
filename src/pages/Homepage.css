@@ -1,0 +1,24 @@
+.main {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .program-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
