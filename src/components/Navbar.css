@@ -1,7 +1,7 @@
 /* Container styles */
 .container {
   background: rgb(2, 23, 143); /* Bright magenta background */
-  width:98%;
+  /* width:94%; */
   margin: 0 auto;
   padding: 10px 20px;
   display: flex;
